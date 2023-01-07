@@ -29,3 +29,5 @@ Methods in a module can be made partly private by prefixing the name with and un
 
 ### Private class methods
 A class method can be made inaccessible outside the class by prefixing the name with two underscores
+
+test
