@@ -10,7 +10,7 @@ Use the [pyenv](https://github.com/pyenv/pyenv) library to control which python 
 
 ## Handle dependencies
 For easy collaboration use poetry to handle dependencies. With the correct version of python activated, the virtual environment may be created by running `poetry install`. If no `pyproject.toml`, then first run `poetry init` and then `poetry install`.
-Regardless, dependencies should be added to the `pyproject.toml` file.
+Regardless of whether [poetry](https://python-poetry.org/) is used or not, dependencies should be added to the `pyproject.toml` file.
 
 
 ## Handle files
