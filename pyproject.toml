@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-package-tts"
+version = "0.1.0"
+description = "Template for building PyPi package"
+authors = ["Thomas Sørensen <thom199b@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_package_tts"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
