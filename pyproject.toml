@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "test-package-tts"
+name = "package_name"
 version = "0.1.0"
 description = "Template for building PyPi package"
 authors = ["Thomas Sørensen <thom199b@gmail.com>"]
