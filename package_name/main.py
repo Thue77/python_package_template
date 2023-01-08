@@ -1,9 +1,5 @@
 import tkinter as tk
 
-def get_text():
-    text = txt_edit.get('1.0',tk.END)
-    print(text)
-
 class GuiWindow:
     def __init__(self) -> None:
         self.window = tk.Tk()
