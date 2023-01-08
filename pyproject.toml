@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Template for building PyPi package"
 authors = ["Thomas Sørensen <thom199b@gmail.com>"]
 readme = "README.md"
-packages = [{include = "test_package_tts"}]
+packages = [{include = "package_name"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
